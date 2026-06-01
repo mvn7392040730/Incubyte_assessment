@@ -1,3 +1,4 @@
+import time
 class SignupPage:
     def __init__(self, page):
         self.page = page
@@ -14,8 +15,9 @@ class SignupPage:
         self.ssn = "input[name='customer.ssn']"
         self.username = "input[name='customer.username']"
         self.password = "input[name='customer.password']"
-        self.confirm_password = "input[name='customer.repeatedPassword']"
+        self.confirm_password = "input[name='repeatedPassword']"
         self.register_button = "input[value='Register']"
+        self.welcome_locator = "#rightPanel h1.title"
     
 
     def open_registration_form(self):
@@ -37,3 +39,12 @@ class SignupPage:
         self.page.fill(self.password, password)
         self.page.fill(self.confirm_password, password)
         self.page.click(self.register_button)
+
+
+    def validate_registration(self, username):
+        self.welcome_locator = self.page.locator(self.welcome_locator)
+        self.welcome_locator.wait_for(state="visible")
+        welcome_text = self.welcome_locator.inner_text()
+        print("Welcome text:", welcome_text)
+        assert username in welcome_text, f"Username {username} not shown in welcome message: {welcome_text}"
+

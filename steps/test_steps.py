@@ -1,10 +1,15 @@
-from pytest_bdd import given, when, then
+from pytest_bdd import given, when, then, scenario
 from pages.signup_page import SignupPage
 from pages.login_page import LoginPage
 from pages.dashboard_page import DashboardPage
 from utils.config import USER_INFO
 from utils.data_generator import generate_user
 
+
+@scenario("../features/parabank_login.feature",
+          "User creates a new account and logs in successfully")
+def test_parabank_flow():
+    pass
 
 @given("the user navigates to the Parabank login page")
 def open_login_page(page, base_url):
@@ -22,11 +27,15 @@ def register_user(page):
     }
     signup_page = SignupPage(page)
     signup_page.fill_registration_form(USER_INFO, user['username'], user['password'])
+    signup_page.validate_registration(user['username'])
 
 
 @when("the user logs in using the generated username and password")
 def login_user(page):
     login_page = LoginPage(page)
+    # Performing logout after registration
+    login_page.logout()
+    # Performing login with registered user
     login_page.login(page.user_data["username"], page.user_data["password"])
 
 
