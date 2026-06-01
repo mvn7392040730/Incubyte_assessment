@@ -5,6 +5,7 @@ from pages.dashboard_page import DashboardPage
 from utils.config import USER_INFO
 from utils.data_generator import generate_user
 
+
 @given("the user navigates to the Parabank login page")
 def open_login_page(page, base_url):
     page.goto(base_url)
