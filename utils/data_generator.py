@@ -15,4 +15,5 @@ def generate_password(length=12):
 def generate_user():
     return {
         "username": generate_username(),
-        "password":generate_password()}
+        "password": generate_password()
+    }
