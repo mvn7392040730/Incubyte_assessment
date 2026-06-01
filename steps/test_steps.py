@@ -4,6 +4,8 @@ from pages.login_page import LoginPage
 from pages.dashboard_page import DashboardPage
 from utils.config import USER_INFO
 from utils.data_generator import generate_user
+from utils.loggers import get_logger
+logger = get_logger(__name__)
 
 
 @scenario("../features/parabank_login.feature",
@@ -13,14 +15,18 @@ def test_parabank_flow():
 
 @given("the user navigates to the Parabank login page")
 def open_login_page(page, base_url):
+    logger.info(f"Going to link: {base_url}")
     page.goto(base_url)
+    logger.info("Waiting for page to get load")
     page.wait_for_load_state("networkidle")
 
 
 @when("the user registers a new account using dynamically generated credentials")
 def register_user(page):
+    logger.info("Generating unique user")
     user = generate_user()
     # store for later login steps
+    logger.info(f"Unique user generated: {user['username']}")
     page.user_data = {
         "username": user["username"],
         "password": user["password"]
@@ -43,6 +49,6 @@ def login_user(page):
 def verify_balance(page):
     dashboard = DashboardPage(page)
     balance = dashboard.get_account_balance()
-    print("Account Balance:", balance)
     assert balance, f"Account balance not found on dashboard"
+    logger.info(f"Account Balance: {balance}.")
 
