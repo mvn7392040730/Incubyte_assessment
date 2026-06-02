@@ -31,6 +31,7 @@ class SignupPage:
     def fill_registration_form(self, user_info, username, password):
         self.open_registration_form()
         self.page.wait_for_selector(self.first_name)
+        self.page.screenshot(path="screenshots/registration_form.png", full_page=True)
         logger.info("Form is visible. Entering user details.")
         logger.info("Entering First Name")
         self.page.fill(self.first_name, user_info["first_name"])
@@ -54,6 +55,7 @@ class SignupPage:
         self.page.fill(self.password, password)
         logger.info("Confirming Password")
         self.page.fill(self.confirm_password, password)
+        self.page.screenshot(path="screenshots/form_filled.png", full_page=True)
         logger.info("Clicking on register button to create the user.")
         self.page.click(self.register_button)
 
@@ -63,5 +65,6 @@ class SignupPage:
         self.welcome_locator = self.page.locator(self.welcome_locator)
         self.welcome_locator.wait_for(state="visible")
         welcome_text = self.welcome_locator.inner_text()
+        self.page.screenshot(path="screenshots/welcome_user.png", full_page=True)
         assert username in welcome_text, f"Username {username} not shown in welcome message: {welcome_text}"
         logger.info(f"Registration Successful. {welcome_text}")

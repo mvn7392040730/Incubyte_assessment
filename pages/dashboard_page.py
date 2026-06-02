@@ -12,5 +12,6 @@ class DashboardPage:
     def get_account_balance(self):
         logger.info("Waiting for account balance to appear.")
         self.page.wait_for_selector(self.balance_locator)
+        self.page.screenshot(path="screenshots/account_balance.png", full_page=True)
         balance = self.page.locator("#accountTable tbody tr td:nth-child(2)").first.inner_text()
         return balance

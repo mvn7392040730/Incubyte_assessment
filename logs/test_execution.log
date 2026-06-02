@@ -1,0 +1,170 @@
+2026-06-02 05:01:33,926 | INFO | steps.test_steps | Going to link: https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC
+2026-06-02 05:01:36,258 | INFO | steps.test_steps | Waiting for page to get load
+2026-06-02 05:01:36,768 | INFO | steps.test_steps | Generating unique user
+2026-06-02 05:01:36,769 | INFO | steps.test_steps | Unique user generated: user_1780356696
+2026-06-02 05:01:36,769 | INFO | pages.signup_page | Clicking Register button.
+2026-06-02 05:01:37,615 | INFO | pages.signup_page | Form is visible. Entering user details.
+2026-06-02 05:01:37,615 | INFO | pages.signup_page | Entering First Name
+2026-06-02 05:01:37,644 | INFO | pages.signup_page | Entering Last Name
+2026-06-02 05:01:37,671 | INFO | pages.signup_page | Entering Address
+2026-06-02 05:01:37,704 | INFO | pages.signup_page | Entering City
+2026-06-02 05:01:37,730 | INFO | pages.signup_page | Entering State
+2026-06-02 05:01:37,760 | INFO | pages.signup_page | Entering Zip Code
+2026-06-02 05:01:37,787 | INFO | pages.signup_page | Entering Phone number
+2026-06-02 05:01:37,814 | INFO | pages.signup_page | Entering SSN
+2026-06-02 05:01:37,846 | INFO | pages.signup_page | Entering Generated Username
+2026-06-02 05:01:37,869 | INFO | pages.signup_page | Entering Generated Password
+2026-06-02 05:01:37,897 | INFO | pages.signup_page | Confirming Password
+2026-06-02 05:01:37,914 | INFO | pages.signup_page | Clicking on register button to create the user.
+2026-06-02 05:01:38,263 | INFO | pages.signup_page | Waiting for Registration
+2026-06-02 05:01:38,336 | INFO | pages.signup_page | Registration Successful. Welcome user_1780356696
+2026-06-02 05:01:38,337 | INFO | pages.login_page | Clicking on logout button
+2026-06-02 05:01:39,009 | INFO | pages.login_page | Waiting for login again with registered credentials.
+2026-06-02 05:01:39,061 | INFO | pages.login_page | Waiting for login
+2026-06-02 05:01:39,076 | INFO | pages.login_page | Entering username
+2026-06-02 05:01:39,093 | INFO | pages.login_page | Entering password
+2026-06-02 05:01:39,114 | INFO | pages.login_page | Clicking login button
+2026-06-02 05:01:40,227 | INFO | pages.dashboard_page | Waiting for account balance to appear.
+2026-06-02 05:01:41,113 | INFO | steps.test_steps | Account Balance: $89.00.
+2026-06-02 05:10:12,218 | INFO | steps.test_steps | Going to link: https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC
+2026-06-02 05:10:14,697 | INFO | steps.test_steps | Waiting for page to get load
+2026-06-02 05:10:15,200 | INFO | steps.test_steps | Generating unique user
+2026-06-02 05:10:15,201 | INFO | steps.test_steps | Unique user generated: user_1780357215
+2026-06-02 05:10:15,201 | INFO | pages.signup_page | Clicking Register button.
+2026-06-02 05:10:15,681 | INFO | pages.signup_page | Form is visible. Entering user details.
+2026-06-02 05:10:15,681 | INFO | pages.signup_page | Entering First Name
+2026-06-02 05:10:15,719 | INFO | pages.signup_page | Entering Last Name
+2026-06-02 05:10:15,741 | INFO | pages.signup_page | Entering Address
+2026-06-02 05:10:15,771 | INFO | pages.signup_page | Entering City
+2026-06-02 05:10:15,800 | INFO | pages.signup_page | Entering State
+2026-06-02 05:10:15,828 | INFO | pages.signup_page | Entering Zip Code
+2026-06-02 05:10:15,855 | INFO | pages.signup_page | Entering Phone number
+2026-06-02 05:10:15,879 | INFO | pages.signup_page | Entering SSN
+2026-06-02 05:10:15,906 | INFO | pages.signup_page | Entering Generated Username
+2026-06-02 05:10:15,935 | INFO | pages.signup_page | Entering Generated Password
+2026-06-02 05:10:15,967 | INFO | pages.signup_page | Confirming Password
+2026-06-02 05:10:15,983 | INFO | pages.signup_page | Clicking on register button to create the user.
+2026-06-02 05:10:16,421 | INFO | pages.signup_page | Waiting for Registration
+2026-06-02 05:10:16,486 | INFO | pages.signup_page | Registration Successful. Welcome user_1780357215
+2026-06-02 05:10:16,487 | INFO | pages.login_page | Clicking on logout button
+2026-06-02 05:10:17,149 | INFO | pages.login_page | Waiting for login again with registered credentials.
+2026-06-02 05:10:17,189 | INFO | pages.login_page | Waiting for login
+2026-06-02 05:10:17,216 | INFO | pages.login_page | Entering username
+2026-06-02 05:10:17,235 | INFO | pages.login_page | Entering password
+2026-06-02 05:10:17,260 | INFO | pages.login_page | Clicking login button
+2026-06-02 05:10:18,475 | INFO | pages.dashboard_page | Waiting for account balance to appear.
+2026-06-02 05:10:19,367 | INFO | steps.test_steps | Account Balance: $89.00.
+2026-06-02 05:12:21,101 | INFO | steps.test_steps | Going to link: https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC
+2026-06-02 05:12:24,152 | INFO | steps.test_steps | Waiting for page to get load
+2026-06-02 05:12:24,162 | INFO | steps.test_steps | Generating unique user
+2026-06-02 05:12:24,163 | INFO | steps.test_steps | Unique user generated: user_1780357344
+2026-06-02 05:12:24,163 | INFO | pages.signup_page | Clicking Register button.
+2026-06-02 05:12:25,674 | INFO | pages.signup_page | Form is visible. Entering user details.
+2026-06-02 05:12:25,674 | INFO | pages.signup_page | Entering First Name
+2026-06-02 05:12:26,714 | INFO | pages.signup_page | Entering Last Name
+2026-06-02 05:12:27,750 | INFO | pages.signup_page | Entering Address
+2026-06-02 05:12:28,779 | INFO | pages.signup_page | Entering City
+2026-06-02 05:12:29,813 | INFO | pages.signup_page | Entering State
+2026-06-02 05:12:30,832 | INFO | pages.signup_page | Entering Zip Code
+2026-06-02 05:12:31,862 | INFO | pages.signup_page | Entering Phone number
+2026-06-02 05:12:32,898 | INFO | pages.signup_page | Entering SSN
+2026-06-02 05:12:33,927 | INFO | pages.signup_page | Entering Generated Username
+2026-06-02 05:12:34,962 | INFO | pages.signup_page | Entering Generated Password
+2026-06-02 05:12:35,988 | INFO | pages.signup_page | Confirming Password
+2026-06-02 05:12:37,025 | INFO | pages.signup_page | Clicking on register button to create the user.
+2026-06-02 05:12:38,443 | INFO | pages.signup_page | Waiting for Registration
+2026-06-02 05:12:38,492 | INFO | pages.signup_page | Registration Successful. Welcome user_1780357344
+2026-06-02 05:12:38,492 | INFO | pages.login_page | Clicking on logout button
+2026-06-02 05:12:40,214 | INFO | pages.login_page | Waiting for login again with registered credentials.
+2026-06-02 05:12:40,256 | INFO | pages.login_page | Waiting for login
+2026-06-02 05:12:40,272 | INFO | pages.login_page | Entering username
+2026-06-02 05:12:41,306 | INFO | pages.login_page | Entering password
+2026-06-02 05:12:42,337 | INFO | pages.login_page | Clicking login button
+2026-06-02 05:12:44,480 | INFO | pages.dashboard_page | Waiting for account balance to appear.
+2026-06-02 05:12:44,528 | INFO | steps.test_steps | Account Balance: $89.00.
+2026-06-02 05:34:12,677 | INFO | steps.test_steps | Going to link: https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC
+2026-06-02 05:34:16,241 | INFO | steps.test_steps | Waiting for page to get load
+2026-06-02 05:34:16,247 | INFO | steps.test_steps | Generating unique user
+2026-06-02 05:34:16,248 | INFO | steps.test_steps | Unique user generated: user_1780358656
+2026-06-02 05:34:16,248 | INFO | pages.signup_page | Clicking Register button.
+2026-06-02 05:34:17,730 | INFO | pages.signup_page | Form is visible. Entering user details.
+2026-06-02 05:34:17,730 | INFO | pages.signup_page | Entering First Name
+2026-06-02 05:34:18,768 | INFO | pages.signup_page | Entering Last Name
+2026-06-02 05:34:19,788 | INFO | pages.signup_page | Entering Address
+2026-06-02 05:34:20,817 | INFO | pages.signup_page | Entering City
+2026-06-02 05:34:21,856 | INFO | pages.signup_page | Entering State
+2026-06-02 05:34:22,884 | INFO | pages.signup_page | Entering Zip Code
+2026-06-02 05:34:23,919 | INFO | pages.signup_page | Entering Phone number
+2026-06-02 05:34:24,953 | INFO | pages.signup_page | Entering SSN
+2026-06-02 05:34:25,982 | INFO | pages.signup_page | Entering Generated Username
+2026-06-02 05:34:27,001 | INFO | pages.signup_page | Entering Generated Password
+2026-06-02 05:34:28,029 | INFO | pages.signup_page | Confirming Password
+2026-06-02 05:34:29,065 | INFO | pages.signup_page | Clicking on register button to create the user.
+2026-06-02 05:34:30,490 | INFO | pages.signup_page | Waiting for Registration
+2026-06-02 05:34:30,543 | INFO | pages.signup_page | Registration Successful. Welcome user_1780358656
+2026-06-02 05:34:30,544 | INFO | pages.login_page | Clicking on logout button
+2026-06-02 05:34:32,249 | INFO | pages.login_page | Waiting for login again with registered credentials.
+2026-06-02 05:34:32,288 | INFO | pages.login_page | Waiting for login
+2026-06-02 05:34:32,304 | INFO | pages.login_page | Entering username
+2026-06-02 05:34:33,324 | INFO | pages.login_page | Entering password
+2026-06-02 05:34:34,344 | INFO | pages.login_page | Clicking login button
+2026-06-02 05:34:36,667 | INFO | pages.login_page | Login Successful. Able to see Accounts Overview
+2026-06-02 05:34:36,668 | INFO | pages.login_page | Waiting for login
+2026-06-02 05:36:28,658 | INFO | steps.test_steps | Going to link: https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC
+2026-06-02 05:36:32,098 | INFO | steps.test_steps | Waiting for page to get load
+2026-06-02 05:36:32,107 | INFO | steps.test_steps | Generating unique user
+2026-06-02 05:36:32,107 | INFO | steps.test_steps | Unique user generated: user_1780358792
+2026-06-02 05:36:32,108 | INFO | pages.signup_page | Clicking Register button.
+2026-06-02 05:36:33,547 | INFO | pages.signup_page | Form is visible. Entering user details.
+2026-06-02 05:36:33,548 | INFO | pages.signup_page | Entering First Name
+2026-06-02 05:36:34,592 | INFO | pages.signup_page | Entering Last Name
+2026-06-02 05:36:35,621 | INFO | pages.signup_page | Entering Address
+2026-06-02 05:36:36,658 | INFO | pages.signup_page | Entering City
+2026-06-02 05:36:37,688 | INFO | pages.signup_page | Entering State
+2026-06-02 05:36:38,726 | INFO | pages.signup_page | Entering Zip Code
+2026-06-02 05:36:39,753 | INFO | pages.signup_page | Entering Phone number
+2026-06-02 05:36:40,786 | INFO | pages.signup_page | Entering SSN
+2026-06-02 05:36:41,808 | INFO | pages.signup_page | Entering Generated Username
+2026-06-02 05:36:42,838 | INFO | pages.signup_page | Entering Generated Password
+2026-06-02 05:36:43,873 | INFO | pages.signup_page | Confirming Password
+2026-06-02 05:36:44,899 | INFO | pages.signup_page | Clicking on register button to create the user.
+2026-06-02 05:36:46,380 | INFO | pages.signup_page | Waiting for Registration
+2026-06-02 05:36:46,427 | INFO | pages.signup_page | Registration Successful. Welcome user_1780358792
+2026-06-02 05:36:46,429 | INFO | pages.login_page | Clicking on logout button
+2026-06-02 05:36:48,140 | INFO | pages.login_page | Waiting for login again with registered credentials.
+2026-06-02 05:36:48,188 | INFO | pages.login_page | Waiting for login
+2026-06-02 05:36:48,209 | INFO | pages.login_page | Entering username
+2026-06-02 05:36:49,236 | INFO | pages.login_page | Entering password
+2026-06-02 05:36:50,265 | INFO | pages.login_page | Clicking login button
+2026-06-02 05:36:52,811 | INFO | pages.login_page | Login Successful. Able to see Accounts Overview
+2026-06-02 05:36:52,812 | INFO | pages.dashboard_page | Waiting for account balance to appear.
+2026-06-02 05:36:52,830 | INFO | steps.test_steps | Account Balance: $89.00.
+2026-06-02 05:45:26,321 | INFO | steps.test_steps | Going to link: https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC
+2026-06-02 05:45:29,640 | INFO | steps.test_steps | Waiting for page to get load
+2026-06-02 05:45:29,649 | INFO | steps.test_steps | Generating unique user
+2026-06-02 05:45:29,650 | INFO | steps.test_steps | Unique user generated: user_1780359329
+2026-06-02 05:45:29,651 | INFO | pages.signup_page | Clicking Register button.
+2026-06-02 05:45:31,428 | INFO | pages.signup_page | Form is visible. Entering user details.
+2026-06-02 05:45:31,428 | INFO | pages.signup_page | Entering First Name
+2026-06-02 05:45:32,465 | INFO | pages.signup_page | Entering Last Name
+2026-06-02 05:45:33,487 | INFO | pages.signup_page | Entering Address
+2026-06-02 05:45:34,520 | INFO | pages.signup_page | Entering City
+2026-06-02 05:45:35,552 | INFO | pages.signup_page | Entering State
+2026-06-02 05:45:36,584 | INFO | pages.signup_page | Entering Zip Code
+2026-06-02 05:45:37,614 | INFO | pages.signup_page | Entering Phone number
+2026-06-02 05:45:38,642 | INFO | pages.signup_page | Entering SSN
+2026-06-02 05:45:39,683 | INFO | pages.signup_page | Entering Generated Username
+2026-06-02 05:45:40,724 | INFO | pages.signup_page | Entering Generated Password
+2026-06-02 05:45:41,745 | INFO | pages.signup_page | Confirming Password
+2026-06-02 05:45:42,874 | INFO | pages.signup_page | Clicking on register button to create the user.
+2026-06-02 05:45:44,271 | INFO | pages.signup_page | Waiting for Registration
+2026-06-02 05:45:44,402 | INFO | pages.signup_page | Registration Successful. Welcome user_1780359329
+2026-06-02 05:45:44,403 | INFO | pages.login_page | Clicking on logout button
+2026-06-02 05:45:46,156 | INFO | pages.login_page | Waiting for login again with registered credentials.
+2026-06-02 05:45:46,302 | INFO | pages.login_page | Waiting for login
+2026-06-02 05:45:46,320 | INFO | pages.login_page | Entering username
+2026-06-02 05:45:47,340 | INFO | pages.login_page | Entering password
+2026-06-02 05:45:48,488 | INFO | pages.login_page | Clicking login button
+2026-06-02 05:45:50,887 | INFO | pages.login_page | Login Successful. Able to see Accounts Overview
+2026-06-02 05:45:50,888 | INFO | pages.dashboard_page | Waiting for account balance to appear.
+2026-06-02 05:45:50,993 | INFO | steps.test_steps | Account Balance: $89.00.
